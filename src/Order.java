@@ -1,4 +1,6 @@
 import java.math.BigDecimal; // You need this for financial precision
+import java.util.HashMap;
+import java.util.Map;
 
 public class Order {
     private final long id;
@@ -30,5 +32,6 @@ public class Order {
     public java.math.BigDecimal getPrice(){
         return price;
     }
+
 
 }
