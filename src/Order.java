@@ -29,6 +29,8 @@ public class Order {
         return isBuy;
     }
 
+    public int quantity() { return quantity; }
+
     public java.math.BigDecimal getPrice(){
         return price;
     }
